@@ -19,5 +19,158 @@ header{
     margin: 40px 0px 30px 0px;
 }
 main{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif
 }
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+h2.font-weight-bold.text-success {
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+.row.text-center {
+    margin-top: 50px;
+}
+.img-background-main{
+    background-image: url(http://aqua.giaodienwebmau.com.vn/wp-content/uploads/2020/03/background-pattern.png)
+}
+.img-bd{
+    padding: 0px;
+    margin: 0px;
+}
+.col-md-5.img-background-main.text-light {
+    padding-top: 17px;
+    padding-left: 41px;
+    box-sizing: border-box;
+}
+.main-thongTin{
+    margin-top:20px;
+}
+.text-color{
+    /* tạo hiệu ứng màu cho chữ */
+    background: linear-gradient(280deg,#2ab574 75%,#283891 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container-vitri{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.h4-text{
+    margin-top: 15%;
+}
+.text-tt-main{
+    margin-top: 5px;
+}
+button.btn.w-100.h-auto.bg-white {
+    margin-top: 23px;
+}
+
+.col-img-sp img{
+    
+    height: 168px;
+    border-radius: 22px;
+    margin-top: 15px;
+}
+.container-tienich{
+    margin-top:30px;
+}
+.container-dangky{
+    background-image: url(/assets/img/e65c966cb6fe4fa016ef.jpg);
+    width:100%;
+    height: auto;
+    margin-top:30px;
+}
+.background-color-all{
+    background: linear-gradient(270deg,#2ab574 75%,#283891 100%);
+}
+.background-form{
+
+    border:5px solid rgb(0, 180, 36);
+    background-color: azure;
+    padding: 10px 0px;
+    margin:30px 0px
+}
+.tong-quan{
+    margin-top:30px;
+}
+
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.container-tt-da{
+    margin-top:30px;
+}
+.scc-img img{
+    border-radius: 22px;
+}
+.scc-img1 img{
+    height: 170px;
+    border-radius: 22px;
+}
+.bg-img-footer{
+    background-image: url(/assets/img/e65c966cb6fe4fa016ef.jpg);
+    width:100%;
+    height: auto;
+}
+.col-trai{
+    margin-top:30px;
+}
+
+.footer-bottom{
+    margin-top:20px;
+}
+.lienhe{
+    background: linear-gradient(280deg,#2ab574 8%,#283891 100%);
+  border-radius: 20px;
+  height:40px;
+  border:none;
+}
+.lienhe-al{
+    position:fixed;
+    top:50px;
+}
+.lienhe-al1 {
+    position: fixed;
+    top: 93%;
+    left: 5%;
+    
+}
+.lienhe-al2 {
+    position: fixed;
+    top: 93%;
+    left: 13%;
+    
+}
+
+@media (max-width: 575.98px) { 
+
+    .rp-img{
+        position: relative;
+        width: 100px !important;
+        height:auto !important;
+    }
+    .col-img-2{
+        position: relative;
+    }
+    .col-img-3{
+        position: absolute;
+    }
+    .container-fluid.border-bottom.border-success {
+        border: none !important; 
+    }
+    button.btn.w-100.h-auto.bg-white {
+        margin-top: 23px;
+        width: 90% !important;
+        margin-bottom: 20px;
+    }
+    .row.fixed-top.bg-light {
+        height: 56px;
+    }
+    .lienhe-al1{
+        display:none;
+    }
+    .lienhe-al2{
+        display:none;
+    }
+ }
